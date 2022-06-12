@@ -16,7 +16,7 @@ module EastRails
       g.stylesheets false
       g.javascripts false
       g.coffee false
-      g.skip_routes true
+      # g.skip_routes true
       g.helper false
       g.test_framework false
     end
