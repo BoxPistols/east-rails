@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
+  # 新規データ作成、保存
   get 'lists/new'
   post 'lists' => 'lists#create'
-
+  # 投稿一覧
   get 'lists' => 'lists#index'
+  
+
   get 'lists/show'
   get 'lists/edit'
 
